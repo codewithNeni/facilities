@@ -362,7 +362,7 @@ span {
 }
 
 .image-content img {
-    width: 110%;
+    width: 100%;
     height: auto;
     border-radius: 8px; /* Optional: adds rounded corners to the image */
 }
@@ -392,10 +392,12 @@ span {
     .text-content {
         margin-right: 0;
         margin-bottom: 20px; /* Space between text and image on mobile */
+        order: 2;
     }
 
     .image-content {
         max-width: 100%;
+        order: 1;
     }
 
     .Facilities-heading {
